@@ -1,3 +1,7 @@
+#Ignore main file
+chessboard
+
+#Ignore .o and .exe files
 *.o
 *.exe
 
