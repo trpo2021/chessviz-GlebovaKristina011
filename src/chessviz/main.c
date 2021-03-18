@@ -3,24 +3,13 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-
 int main()
 {
-    char board[11][11]
-        = {
-            "rnbqkbnr",
-            "pppppppp",
-            "        ",
-            "        ",
-            "        ",
-            "        ",
-            "PPPPPPPP",
-            "RNBQKBNR"
-          };
+    char board[11][11] = { "rnbqkbnr", "pppppppp", "        ", "        ",
+        "        ", "        ", "PPPPPPPP", "RNBQKBNR" };
     printboard(board);
     while (1) {
-		hod(board);
+        hod(board);
     }
     return 0;
 }
-
