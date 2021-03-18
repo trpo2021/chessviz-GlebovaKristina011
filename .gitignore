@@ -1,7 +1,12 @@
 #Ignore main file
-chessboard
+chessviz
 
-#Ignore .o and .exe files
+#Ignore .<name> files
 *.o
 *.exe
+*.out
+*.a
+*.d
 
+.vscode
+bin/chessviz
