@@ -10,5 +10,6 @@ chessviz
 #Ignore .d files
 *.d
 
+
 .vscode
 bin/chessviz
