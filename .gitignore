@@ -6,6 +6,8 @@ chessviz
 *.exe
 *.out
 *.a
+
+#Ignore .d files
 *.d
 
 .vscode
