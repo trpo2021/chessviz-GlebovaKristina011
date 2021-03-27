@@ -82,7 +82,6 @@ char hod(char chessboard[11][11])
         break;
     case 8:
         break;
-
     default:
         flag = 1;
         break;
@@ -104,7 +103,6 @@ char hod(char chessboard[11][11])
         break;
     case 8:
         break;
-
     default:
         flag = 1;
         break;
@@ -115,6 +113,5 @@ char hod(char chessboard[11][11])
         chessboard[scanstr2 - 1][clmnend] = temp;
         printboard(chessboard);
     }
-
     return chessboard[9][10];
 }
