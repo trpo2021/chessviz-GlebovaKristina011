@@ -16,7 +16,7 @@ int main()
                "RNBQKBNR"};
     printboard(board);
     while (1) {
-        hod(board);
+    hod(board);
     }
     return 0;
 }
