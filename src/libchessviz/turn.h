@@ -1,2 +1,2 @@
 #pragma once
-char hod(char chessboard[11][11]);
+void turn(char board[][9], int clmnst, int strst, int clmnend, int strend);

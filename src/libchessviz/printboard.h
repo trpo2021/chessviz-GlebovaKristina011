@@ -1,2 +1,2 @@
 #pragma once
-void printboard(char chessboard1[11][11]);
+void printboard(char board[][9]);
