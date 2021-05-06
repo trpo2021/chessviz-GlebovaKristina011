@@ -16,8 +16,8 @@ int CheckMove(
     clmnst = CheckCLMN(scanclmn);
     clmnend = CheckCLMN(scanclmn2);
 
-    strst = CheckSTR(scanstr);
-    strend = CheckSTR(scanstr2);
+    strst = CheckSTR(&scanstr);
+    strend = CheckSTR(&scanstr2);
 
     if (clmnst != -1 && clmnend != -1 && strst != -1 && strend != -1) {
         turn(board, clmnst, strst, clmnend, strend);

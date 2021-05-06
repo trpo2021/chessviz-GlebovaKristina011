@@ -1,2 +1,2 @@
 #pragma once
-int CheckSTR(char scanclmn);
+int CheckSTR(char scanclmn[]);
